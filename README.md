@@ -1,5 +1,7 @@
 # 大模型图文问答挑战赛
 
+科大讯飞xDatawhale [大模型图文问答挑战赛](https://challenge.xfyun.cn/topic/info?type=graphic-quiz-challenge&option=ssgy)第二名方案分享，包含预训练权重的代码可从[百度网盘](https://pan.baidu.com/s/1ESEVM66a3rmcMg7KS5nfsA?pwd=kww5)下载。
+
 ## 解决方案及算法介绍
 
 赛题要求能够准确地从图像和相关的文本描述中提取信息，并回答关于这些信息的问题，测试集提问存在以下两种类型：
@@ -80,3 +82,10 @@ bash test.sh
 ```
 
 最终结果存储在 `../prediction_result/result.json`
+
+## 引用
+
+感谢以下开源项目的帮助：
+
+* https://github.com/OFA-Sys/Chinese-CLIP
+* https://github.com/modelscope/ms-swift
